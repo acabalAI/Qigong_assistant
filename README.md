@@ -78,7 +78,7 @@ Set up your OpenAI API key in the .env file.
 ## Running the Application
 
 ```bash
-Python - m streamlit run app/main.py
+python - m streamlit run web/main.py
 ```
 
 ## Usage
