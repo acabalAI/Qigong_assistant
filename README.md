@@ -3,10 +3,10 @@ AI Chatbot for Qigong Assistance
 This repository contains the code for an AI-powered chatbot designed to provide assistance and information on Qigong, a traditional Chinese exercise and healing technique. The chatbot utilizes OpenAI's GPT-3.5 model, embedded within the LangChain framework, and offers a Streamlit-based user interface for easy interaction.
 Features
 
-    Personalized responses based on user queries about Qigong.
-    Integration with OpenAI's powerful language models.
-    Streamlit interface for a user-friendly experience.
-    Data-driven responses with context awareness.
+- Personalized responses based on user queries about Qigong.
+- Integration with OpenAI's powerful language models.
+- Streamlit interface for a user-friendly experience.
+- Data-driven responses with context awareness.
 
 Getting Started
 Prerequisites
@@ -15,25 +15,20 @@ Prerequisites
     OpenAI API Key
     Streamlit
 
-Installation
+Installation:
 
-    Clone the repository:
+Clone the repository:
 
-    sh
 
-git clone https://github.com/[your-username]/qigong-chatbot.git
+  git clone https://github.com/[your-username]/qigong-chatbot.git
 
-Navigate to the project directory:
+  Navigate to the project directory:
 
-sh
-
-cd qigong-chatbot
+  cd qigong-chatbot
 
 Install the required packages:
 
-sh
-
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
 Setting Up
 
