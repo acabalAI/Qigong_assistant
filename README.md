@@ -9,46 +9,49 @@ Features
 - Data-driven responses with context awareness.
 
 Getting Started
-Prerequisites
+Prerequisites:
 
+```bash
     Python 3.8+
     OpenAI API Key
     Streamlit
-
+```
 Installation:
 
 Clone the repository:
 
+```bash
+git clone https://github.com/[your-username]/qigong-chatbot.git
 
-  git clone https://github.com/[your-username]/qigong-chatbot.git
+Navigate to the project directory:
 
-  Navigate to the project directory:
-
-  cd qigong-chatbot
+cd qigong-chatbot
 
 Install the required packages:
 
 pip install -r requirements.txt
+```
 
 Setting Up
 
-    Create a .env file in the root directory with your OpenAI API key:
+Create a .env file in the root directory with your OpenAI API key
 
-    arduino
+```bash
 
 OPENAI_API_KEY='your_api_key_here'
+```
 
 Load and preprocess your Qigong-related data. Place the data file in the data directory.
 
 Run the Streamlit app:
 
-sh
-
-    streamlit run app/main.py
+```bash
+streamlit run app/main.py
+```
 
 Project Structure
 
-bash
+```bash
 
 chatbot_project/
 │
@@ -62,6 +65,7 @@ chatbot_project/
 │
 ├── requirements.txt           # Dependencies
 └── README.md                  # Project documentation
+```
 
 Usage
 
@@ -69,10 +73,4 @@ Interact with the chatbot via the Streamlit interface. Input your queries relate
 Contributing
 
 Contributions to enhance the chatbot's functionality or to extend its dataset are welcome. Please feel free to fork the repository and submit a pull request with your improvements.
-License
 
-This project is licensed under the MIT License.
-Acknowledgments
-
-    OpenAI for providing the GPT-3.5 model.
-    The LangChain community for support and resources.
